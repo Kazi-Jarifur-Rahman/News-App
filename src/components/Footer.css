@@ -1,0 +1,13 @@
+.footer {
+  background-color: #7B2FFF;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 0.9rem;
+}
+
+/* Dark mode (optional if your app supports a theme toggle) */
+.app.dark-mode .footer {
+  background-color: #8751FF;
+  color: #eee;
+}

@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+/* Default (light mode) */
+.app {
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.light-mode {
+  background-color: #F9F8FF;
+  color: #1E1A33;
+}
+
+.dark-mode {
+  background-color: #1A093F;
+  color: #EDE8FF;
+}
