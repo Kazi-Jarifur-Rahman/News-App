@@ -9,12 +9,13 @@ function Header({ onToggleTheme, isDarkMode }) {
       </div>
 
       <nav className="header-center">
-        <a href="#">Home</a>
-        <a href="#">Join Us</a>
-        <a href="#">Reach Out</a>
-        <a href="#">Customer Care</a>
-        <a href="#">About Us</a>
+        <a href="#" onClick={(e) => e.preventDefault()}>Home</a>
+        <a href="#" onClick={(e) => e.preventDefault()}>Join Us</a>
+        <a href="#" onClick={(e) => e.preventDefault()}>Reach Out</a>
+        <a href="#" onClick={(e) => e.preventDefault()}>Customer Care</a>
+        <a href="#" onClick={(e) => e.preventDefault()}>About Us</a>
       </nav>
+
 
       <div className="header-right">
         <button className="subscribe-btn">Subscribe</button>
